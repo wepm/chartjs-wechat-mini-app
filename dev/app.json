@@ -1,6 +1,14 @@
 {
   "pages": [
-    "page/line/index"
+    "page/line/index",
+    "page/line-multi-axis/index",
+    "page/bar/index",
+    "page/canvas/index",
+    "page/doughnut/index",
+    "page/pie/index",
+    "page/point-style/index",
+    "page/radar-skip-point/index",
+    "page/scatter-multi-axis/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
