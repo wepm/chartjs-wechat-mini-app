@@ -2,27 +2,17 @@
  * Created by xiabingwu on 2016/11/21.
  */
 export default function(canvasConfig,labels,data){
-    var chartColors = {
-        red: 'pink',
-        orange: 'rgb(255, 159, 64)',
-        yellow: 'rgb(255, 205, 86)',
-        green: 'rgb(75, 192, 192)',
-        blue: 'rgb(54, 162, 235)',
-        purple: 'rgb(153, 102, 255)',
-        grey: 'rgb(231,233,237)'
-    };
 
     var randomScalingFactor = function () {
         // return (Math.random() > 0.5 ? 1.0 : -1.0) * Math.round(Math.random() * 100);
         return Math.random() * 9
     }
-    var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var lineChartData = {
         labels: ["1", "2", "3", "4", "5", "6", "7"],
         datasets: [{
             label: "小",
-            borderColor: chartColors.blue,
-            backgroundColor: chartColors.blue,
+            borderColor: 'cyan',
+            backgroundColor: 'cyan',
             fill: false,
             spanGaps: true,
             data: [
@@ -37,8 +27,8 @@ export default function(canvasConfig,labels,data){
             yAxisID: "y-axis-pee",
         }, {
             label: "大",
-            borderColor: chartColors.red,
-            backgroundColor: chartColors.red,
+            borderColor: 'pink',
+            backgroundColor: 'pink',
             fill: false,
             data: [
                 2.9,
